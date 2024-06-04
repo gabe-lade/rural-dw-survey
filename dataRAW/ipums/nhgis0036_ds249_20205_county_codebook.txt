@@ -1,0 +1,277 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0036_ds249_20205_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2016-2020
+Geographic level: County (by State)
+Dataset:          2020 American Community Survey: 5-Year Data [2016-2020, Block Groups & Larger Areas]
+   NHGIS code:    2016_2020_ACS5a
+   NHGIS ID:      ds249
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Own Children Under 18 Years by Family Type and Age
+   Universe:    Own children under 18 years
+   Source code: B09002
+   NHGIS code:  AMQN
+ 
+2. Household Type (Including Living Alone) by Relationship
+   Universe:    Total population
+   Source code: B09019
+   NHGIS code:  AMQP
+ 
+3. Average Household Size of Occupied Housing Units by Tenure
+   Universe:    Occupied housing units
+   Source code: B25010
+   NHGIS code:  AMUU
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        STUSAB:      State Postal Abbreviation
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLCK_GRPA:   Block Group Code
+        C_CITYA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AIHHTLI:     American Indian Trust Land/ Hawaiian Home Land Indicator
+        TRBL_SUBA:   Tribal Subdivision Code
+        AITS:        American Indian Tribal Subdivision (FIPS)
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Core Based (Metropolitan/Micropolitan) Statistical Area [2003-Present] Code
+        CSAA:        Combined Statistical Area [2003-Present] Code
+        METDIVA:     Metropolitan Division [2003-Present] Code
+        MEMI:        Metropolitan/Micropolitan Indicator Flag
+        NECTAA:      New England City and Town Area [2003-Present] Code
+        C_NECTAA:    Combined New England City and Town Area [2003-Present] Code
+        NECTADIVA:   New England City and Town Area Division [2003-Present] Code
+        URB_AREAA:   Urban Area [1970-Present] Code
+        CDA:         Congressional District Code
+        STLEG_UPA:   State Legislative District (Upper Chamber) Code
+        STLEG_LOA:   State Legislative District (Lower Chamber) Code
+        ZCTAA:       5-Digit ZIP Code Tabulation Area [2000-Present] Code
+        SUBMCDA:     Subminor Civil Division [Puerto Rico] Code
+        SD_ELMA:     School District (Elementary) Code
+        SD_SECA:     School District (Secondary) Code
+        SD_UNIA:     School District (Unified) Code
+        UR:          Urban/Rural
+        PCI:         Principal City Indicator
+        PUMAA:       Public Use Microdata Sample Area (PUMA) Code
+        GEOID:       Census Geographic Identifier
+        TRBL_CTA:    Tribal Census Tract Code
+        TRBL_BGA:    Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Own Children Under 18 Years by Family Type and Age
+    Universe:    Own children under 18 years
+    Source code: B09002
+    NHGIS code:  AMQN
+        AMQNE001:    Total
+        AMQNE002:    In married-couple families
+        AMQNE003:    In married-couple families: Under 3 years
+        AMQNE004:    In married-couple families: 3 and 4 years
+        AMQNE005:    In married-couple families: 5 years
+        AMQNE006:    In married-couple families: 6 to 11 years
+        AMQNE007:    In married-couple families: 12 to 17 years
+        AMQNE008:    In other families
+        AMQNE009:    In other families: Male householder, no spouse present
+        AMQNE010:    In other families: Male householder, no spouse present: Under 3 years
+        AMQNE011:    In other families: Male householder, no spouse present: 3 and 4 years
+        AMQNE012:    In other families: Male householder, no spouse present: 5 years
+        AMQNE013:    In other families: Male householder, no spouse present: 6 to 11 years
+        AMQNE014:    In other families: Male householder, no spouse present: 12 to 17 years
+        AMQNE015:    In other families: Female householder, no spouse present
+        AMQNE016:    In other families: Female householder, no spouse present: Under 3 years
+        AMQNE017:    In other families: Female householder, no spouse present: 3 and 4 years
+        AMQNE018:    In other families: Female householder, no spouse present: 5 years
+        AMQNE019:    In other families: Female householder, no spouse present: 6 to 11 years
+        AMQNE020:    In other families: Female householder, no spouse present: 12 to 17 years
+ 
+    Table 2:     Household Type (Including Living Alone) by Relationship
+    Universe:    Total population
+    Source code: B09019
+    NHGIS code:  AMQP
+        AMQPE001:    Total
+        AMQPE002:    In households
+        AMQPE003:    In households: Householder
+        AMQPE004:    In households: Householder: Male
+        AMQPE005:    In households: Householder: Male: Living alone
+        AMQPE006:    In households: Householder: Male: Not living alone
+        AMQPE007:    In households: Householder: Female
+        AMQPE008:    In households: Householder: Female: Living alone
+        AMQPE009:    In households: Householder: Female: Not living alone
+        AMQPE010:    In households: Opposite-sex spouse
+        AMQPE011:    In households: Same-sex spouse
+        AMQPE012:    In households: Opposite-sex unmarried partner
+        AMQPE013:    In households: Same-sex unmarried partner
+        AMQPE014:    In households: Child
+        AMQPE015:    In households: Child: Biological child
+        AMQPE016:    In households: Child: Adopted child
+        AMQPE017:    In households: Child: Stepchild
+        AMQPE018:    In households: Grandchild
+        AMQPE019:    In households: Brother or sister
+        AMQPE020:    In households: Parent
+        AMQPE021:    In households: Parent-in-law
+        AMQPE022:    In households: Son-in-law or daughter-in-law
+        AMQPE023:    In households: Other relatives
+        AMQPE024:    In households: Foster child
+        AMQPE025:    In households: Other nonrelatives
+        AMQPE026:    In group quarters
+ 
+    Table 3:     Average Household Size of Occupied Housing Units by Tenure
+    Universe:    Occupied housing units
+    Source code: B25010
+    NHGIS code:  AMUU
+        AMUUE001:    Average household size: Total
+        AMUUE002:    Average household size: Owner occupied
+        AMUUE003:    Average household size: Renter occupied
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Own Children Under 18 Years by Family Type and Age
+    Universe:    Own children under 18 years
+    Source code: B09002
+    NHGIS code:  AMQN
+        AMQNM001:    Total
+        AMQNM002:    In married-couple families
+        AMQNM003:    In married-couple families: Under 3 years
+        AMQNM004:    In married-couple families: 3 and 4 years
+        AMQNM005:    In married-couple families: 5 years
+        AMQNM006:    In married-couple families: 6 to 11 years
+        AMQNM007:    In married-couple families: 12 to 17 years
+        AMQNM008:    In other families
+        AMQNM009:    In other families: Male householder, no spouse present
+        AMQNM010:    In other families: Male householder, no spouse present: Under 3 years
+        AMQNM011:    In other families: Male householder, no spouse present: 3 and 4 years
+        AMQNM012:    In other families: Male householder, no spouse present: 5 years
+        AMQNM013:    In other families: Male householder, no spouse present: 6 to 11 years
+        AMQNM014:    In other families: Male householder, no spouse present: 12 to 17 years
+        AMQNM015:    In other families: Female householder, no spouse present
+        AMQNM016:    In other families: Female householder, no spouse present: Under 3 years
+        AMQNM017:    In other families: Female householder, no spouse present: 3 and 4 years
+        AMQNM018:    In other families: Female householder, no spouse present: 5 years
+        AMQNM019:    In other families: Female householder, no spouse present: 6 to 11 years
+        AMQNM020:    In other families: Female householder, no spouse present: 12 to 17 years
+ 
+    Table 2:     Household Type (Including Living Alone) by Relationship
+    Universe:    Total population
+    Source code: B09019
+    NHGIS code:  AMQP
+        AMQPM001:    Total
+        AMQPM002:    In households
+        AMQPM003:    In households: Householder
+        AMQPM004:    In households: Householder: Male
+        AMQPM005:    In households: Householder: Male: Living alone
+        AMQPM006:    In households: Householder: Male: Not living alone
+        AMQPM007:    In households: Householder: Female
+        AMQPM008:    In households: Householder: Female: Living alone
+        AMQPM009:    In households: Householder: Female: Not living alone
+        AMQPM010:    In households: Opposite-sex spouse
+        AMQPM011:    In households: Same-sex spouse
+        AMQPM012:    In households: Opposite-sex unmarried partner
+        AMQPM013:    In households: Same-sex unmarried partner
+        AMQPM014:    In households: Child
+        AMQPM015:    In households: Child: Biological child
+        AMQPM016:    In households: Child: Adopted child
+        AMQPM017:    In households: Child: Stepchild
+        AMQPM018:    In households: Grandchild
+        AMQPM019:    In households: Brother or sister
+        AMQPM020:    In households: Parent
+        AMQPM021:    In households: Parent-in-law
+        AMQPM022:    In households: Son-in-law or daughter-in-law
+        AMQPM023:    In households: Other relatives
+        AMQPM024:    In households: Foster child
+        AMQPM025:    In households: Other nonrelatives
+        AMQPM026:    In group quarters
+ 
+    Table 3:     Average Household Size of Occupied Housing Units by Tenure
+    Universe:    Occupied housing units
+    Source code: B25010
+    NHGIS code:  AMUU
+        AMUUM001:    Average household size: Total
+        AMUUM002:    Average household size: Owner occupied
+        AMUUM003:    Average household size: Renter occupied
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 16.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2021. 
+        http://doi.org/10.18128/D050.V16.0
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
